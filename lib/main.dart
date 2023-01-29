@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sevendaysbwa/pages/first_sign.dart';
 import 'package:sevendaysbwa/pages/first_splash.dart';
 import 'package:sevendaysbwa/pages/first_started.dart';
 import 'package:sevendaysbwa/pages/second_splash.dart';
+import 'package:sevendaysbwa/pages/second_started.dart';
 
 void main() => runApp(SevenDays());
 class SevenDays extends StatelessWidget {
@@ -10,7 +12,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstStarted(),
+      home: FirstSignIn(),
     );
   }
 }
