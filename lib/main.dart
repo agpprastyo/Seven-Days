@@ -5,6 +5,7 @@ import 'package:sevendaysbwa/pages/first_rating.dart';
 import 'package:sevendaysbwa/pages/first_sign.dart';
 import 'package:sevendaysbwa/pages/first_splash.dart';
 import 'package:sevendaysbwa/pages/first_started.dart';
+import 'package:sevendaysbwa/pages/second_signin.dart';
 import 'package:sevendaysbwa/pages/second_splash.dart';
 import 'package:sevendaysbwa/pages/second_started.dart';
 
@@ -15,7 +16,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPricing(),
+      home: SecondSignin(),
     );
   }
 }
